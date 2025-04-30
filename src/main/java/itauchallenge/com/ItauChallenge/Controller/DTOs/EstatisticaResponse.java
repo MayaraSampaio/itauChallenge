@@ -2,6 +2,8 @@ package itauchallenge.com.ItauChallenge.DTOs;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.stereotype.Component;
+
 
 @Getter
 @Setter
@@ -26,4 +28,5 @@ public class EstatisticaResponse {
         this.min = 0.0;
         this.max = 0.0;
     }
+
 }
